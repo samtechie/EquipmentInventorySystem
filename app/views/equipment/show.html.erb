@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @equipment.description %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @equipment.model %>
+</p>
+
+<p>
+  <strong>Serial number:</strong>
+  <%= @equipment.serial_number %>
+</p>
+
+<p>
+  <strong>Lpo number:</strong>
+  <%= @equipment.lpo_number %>
+</p>
+
+<p>
+  <strong>Date supplied:</strong>
+  <%= @equipment.date_supplied %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @equipment.supplier %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @equipment.status %>
+</p>
+
+<p>
+  <strong>Kcca number:</strong>
+  <%= @equipment.kcca_number %>
+</p>
+
+<p>
+  <strong>Equipment name:</strong>
+  <%= @equipment.equipment_name %>
+</p>
+
+<p>
+  <strong>Equipment type:</strong>
+  <%= @equipment.equipment_type %>
+</p>
+
+<%= link_to 'Edit', edit_equipment_path(@equipment) %> |
+<%= link_to 'Back', equipment_index_path %>
